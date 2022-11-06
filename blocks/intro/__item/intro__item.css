@@ -1,0 +1,9 @@
+.intro__item {
+  -webkit-transition: .4s ease;
+  -o-transition: .4s ease;
+  transition: .4s ease;
+}
+
+.intro__item:hover {
+  opacity: .4;
+}
