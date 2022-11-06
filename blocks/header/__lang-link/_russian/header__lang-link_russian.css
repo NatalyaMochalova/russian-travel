@@ -1,4 +1,5 @@
 .header__lang-link_russian {
   margin-right: 18px;
-  text-decoration-line: underline;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
 }
