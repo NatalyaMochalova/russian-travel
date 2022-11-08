@@ -1,0 +1,21 @@
+.place {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: white;
+  -ms-grid-columns: -webkit-min-content 40px 1fr;
+  -ms-grid-columns: min-content 40px 1fr;
+  grid-template-columns: -webkit-min-content 1fr;
+  grid-template-columns: min-content 1fr;
+  gap: 48px 40px;
+}
+
+@media screen and (max-width: 680px) {
+  .place {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+}
+
