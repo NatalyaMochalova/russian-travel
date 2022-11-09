@@ -1,0 +1,28 @@
+.footer {
+  color: white;
+  max-width: 1184px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 92px 48px 24px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    padding: 90px 24px 24px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 64px 0 24px 16px;
+  }
+}
+
