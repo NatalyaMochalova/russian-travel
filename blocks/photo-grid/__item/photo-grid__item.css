@@ -4,7 +4,6 @@
   transition: -webkit-box-shadow .4s ease-in-out;
   -o-transition: box-shadow .4s ease-in-out;
   transition: box-shadow .4s ease-in-out;
-  transition: box-shadow .4s ease-in-out, -webkit-box-shadow .4s ease-in-out;
 }
 
 .photo-grid__item:hover {
