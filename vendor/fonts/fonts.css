@@ -2,9 +2,7 @@
   font-family: 'Inter';
   src: local('Inter Regular'), local('Inter-Regular'),
     url(Inter-Regular.woff2) format('woff2'),
-    url(Inter-Regular.woff) format('woff'),
-    url(Inter-Regular.ttf) format('truetype'),
-    url(Inter-Regular.eot) format('eot');
+    url(Inter-Regular.woff) format('woff');
   font-weight: 400;
 }
 
@@ -12,9 +10,7 @@
   font-family: 'Inter';
   src: local('Inter Bold'), local('Inter-Bold'),
     url(Inter-Bold.woff2) format('woff2'),
-    url(Inter-Bold.woff) format('woff'),
-    url(Inter-Bold.ttf) format('truetype'),
-    url(Inter-Bold.eot) format('eot');
+    url(Inter-Bold.woff) format('woff');
   font-weight: 700;
 }
 
@@ -22,8 +18,6 @@
   font-family: 'Inter';
   src: local('Inter Black'), local('Inter-Black'),
     url(Inter-Black.woff2) format('woff2'),
-    url(Inter-Black.woff) format('woff'),
-    url(Inter-Black.ttf) format('truetype'),
-    url(Inter-Black.eot) format('eot');
+    url(Inter-Black.woff) format('woff');
   font-weight: 900;
 }

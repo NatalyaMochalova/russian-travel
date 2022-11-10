@@ -5,8 +5,12 @@
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
   color: white;
+  -webkit-transition: .4s ease;
+  -o-transition: .4s ease;
+  transition: .4s ease;
 }
 
 .place__link:hover {
   cursor: url(../../../images/Pointer.svg), pointer;
+  opacity: .4;
 }

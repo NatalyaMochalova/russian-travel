@@ -12,6 +12,7 @@
 
 .header__lang-link:hover {
   opacity: .4;
+  cursor: url(../../../images/Pointer.svg), pointer;
 }
 
 @media screen and (max-width: 320px) {

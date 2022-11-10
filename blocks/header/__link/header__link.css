@@ -1,0 +1,17 @@
+.header__link {
+  height: 52px;
+  -webkit-transition: .4s ease;
+  -o-transition: .4s ease;
+  transition: .4s ease;
+}
+
+.header__link:hover {
+  cursor: url(../../../images/Pointer.svg), pointer;
+  opacity: .4;
+}
+
+@media screen and (max-width: 320px) {
+  .header__link {
+    height: 42px;
+  }
+}

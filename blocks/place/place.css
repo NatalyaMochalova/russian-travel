@@ -1,4 +1,6 @@
 .place {
+  max-width: 984px;
+  margin: auto;
   display: -ms-grid;
   display: grid;
   -webkit-box-sizing: border-box;
@@ -9,6 +11,24 @@
   grid-template-columns: -webkit-min-content 1fr;
   grid-template-columns: min-content 1fr;
   gap: 48px 40px;
+}
+
+@media screen and (max-width: 1024px) {
+  .place {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .place {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .place {
+    max-width: 650px;
+  }
 }
 
 @media screen and (max-width: 680px) {
